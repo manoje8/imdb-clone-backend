@@ -26,19 +26,19 @@ The backend exposes the following REST API endpoints:
 
 ### Movies
 
-- `POST /api/movies` - Create a new movie with actors and producer
-- `GET /api/movies` - Retrieve a list of movies with actors and producer
-- `GET /api/movies/:id` - Get a movie by ID with actors and producer
-- `PUT /api/movies/:id` - Update a movie along with actors and producer
-- `DELETE /api/movies/:id` - Delete a movie
+- `POST /movie/add-movie` - Create a new movie with actors and producer
+- `GET /movie` - Retrieve a list of movies with actors and producer
+- `GET /movie/:id` - Get a movie by ID with actors and producer
+- `PUT /movie/update-movie/:id` - Update a movie along with actors and producer
+- `DELETE /movie/delete/:id` - Delete a movie
 
 ### Actors
 
-- `GET /api/actors/:id` - Get an actor by ID
+- `GET /actor/getActorById/:id` - Get an actor by ID
 
 ### Producer
 
-- `GET /api/producers/:id` - Get a producer by ID
+- `GET /producer/getProducerById/:id` - Get a producer by ID
 
 ### Installation and Setup
 
